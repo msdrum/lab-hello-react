@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: rgb(40, 38, 48);
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 5%;
+}
+
+.menu {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.content {
+  margin-bottom: 5%;
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding-bottom: 5%;
+}
+
+.btn-awsome {
+  font-size: 1rem;
+  padding: 0.9% 1.2%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
